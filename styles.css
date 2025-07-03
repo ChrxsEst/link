@@ -1,0 +1,207 @@
+body {
+    margin: 0;
+    font-family: Helvetica;
+    font-size: 20px;
+    background: image-set('images/fondo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all 0.5s ease;
+
+}
+
+.titulo {
+    margin: 10px;
+    text-align: center;
+    font-size: 1.1em;
+    color: white;
+}
+
+.subtitulo-box {
+    font-size: 1em;
+    text-align: center;
+    color: white;
+}
+
+.info-box {
+    width: 60vw;
+    background: #000000ae;
+    color: white;
+    font-size: 1em;
+    margin: 1em auto;
+    padding: 10px;
+    border-radius: 30px;
+    box-shadow: 0 0 10px white;
+}
+
+.columnas {
+    display: flex;
+}
+
+.columna-1 {
+    flex: 75%;
+    padding-left: 10px;
+    text-align: justify;
+}
+
+.columna-2 {
+    flex: 25%;
+    margin-left: 2px;
+    text-align: center;
+}
+
+.imagen-info {
+    width: 10rem;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.links {
+    text-align: center;
+    margin: auto;
+    margin: 2em 1em;
+    width: 100vw;
+}
+
+.imagenes-box {
+    padding: 10px;
+    font-size: 1em;
+    width: 60vw;
+    background: #000000ae;
+    box-shadow: 0 0 10px white;
+    border-radius: 30px;
+    color: white;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.imagenes {
+    width: 100%;
+    display: inline;
+}
+
+.imagenes2 {
+    width: 100%;
+    display: inline;
+}
+
+.foto-inicial {
+    width: 8em;
+    height: auto;
+    border-radius: 30px;
+    margin-bottom: 10px;
+    height: 10em;
+}
+
+.fotos-muestra {
+    margin-left: 10px;
+    margin-bottom: 10px;
+    width: 8em;
+    height: auto;
+    border-radius: 30px;
+    height: 10em;
+}
+
+.foto-inicial2 {
+    width: 8em;
+    margin-bottom: 10px;
+    height: auto;
+    border-radius: 30px;
+    height: 10em;
+}
+
+.fotos-muestra2 {
+    margin-left: 10px;
+    margin-bottom: 10px;
+    width: 8em;
+    height: auto;
+    border-radius: 30px;
+    height: 10em;
+}
+
+.foto-inicial:hover {
+    transition: all 0.5s ease;
+    transform: scale(1.02);
+    box-shadow: 0 0 10px white;
+}
+
+.foto-inicial2:hover {
+    transition: all 0.5s ease;
+    transform: scale(1.02);
+    box-shadow: 0 0 10px white;
+}
+
+.fotos-muestra:hover {
+    transition: all 0.5s ease;
+    transform: scale(1.02);
+    box-shadow: 0 0 10px white;
+}
+
+.fotos-muestra2:hover {
+    transition: all 0.5s ease;
+    transform: scale(1.02);
+    box-shadow: 0 0 10px white;
+}
+
+.imagenes-box h3 {
+    font-size: 0.5em;
+    color: #8a8a8ace;
+}
+
+.subtitulo-final {
+    text-align: center;
+    font-size: 1.2em;
+    color: white;
+    margin-bottom: 30px;
+}
+
+#github {
+    font-size: 1em;
+    padding: 10px;
+    background: #3c3c3c;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+    margin: 5px;
+}
+
+#github img {
+    width: 1em;
+    height: auto;
+    vertical-align: -2px;
+    margin-right: 5px;
+}
+
+#instagram img {
+    width: 1em;
+    height: auto;
+    vertical-align: -2px;
+    margin-right: 5px;
+}
+
+#instagram {
+    font-size: 1em;
+    padding: 10px;
+    background: #f39600;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 10px;
+    margin: 5px;
+    transition: all 0.5s ease;
+}
+
+#github:hover {
+    background: #818181;
+    font-size: 1.1em;
+    box-shadow: 0 0 20px #818181;
+}
+
+#instagram:hover {
+    background: #ffb949;
+    font-size: 1.1em;
+    box-shadow: 0 0 20px #ffb949;
+}
